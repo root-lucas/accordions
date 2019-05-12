@@ -1,0 +1,2 @@
+# accordions
+A simple accordion
