@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+    <script type="text/javascript" src="jquery.js"></script>
+	<link href="demo.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div id="subject" class="wrapper">
+    <ul>
+        <li class="big">
+            <a href="#link1">
+                <img src="https://a.vpimg4.com/upload/merchandise/pdcvis/108668/2019/0416/29/7bd51d4e-3b81-4120-a6f2-ea682944b7bf.jpg">
+                <div class="info">
+                <h3 style="color:#f62368">聚美妆</h3>
+                <p>聚美妆1/2周年庆</p>
+                <p class="price"><strong>1</strong><i>折起</i></p>
+                </div>
+                <s class="line"></s>
+                <i class="mask"></i>
+            </a>
+        </li>
+     <li>
+            <a href="#link1">
+                <img src="https://a.vpimg4.com/upload/merchandise/pdcvis/108668/2019/0416/29/7bd51d4e-3b81-4120-a6f2-ea682944b7bf.jpg">
+                <div class="info">
+                <h3 style="color:#f62368">聚美妆</h3>
+                <p>聚美妆1/2周年庆</p>
+                <p class="price"><strong>1</strong><i>折起</i></p>
+                </div>
+                <s class="line"></s>
+                <i class="mask"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#link1">
+                <img src="https://a.vpimg4.com/upload/merchandise/pdcvis/108668/2019/0416/29/7bd51d4e-3b81-4120-a6f2-ea682944b7bf.jpg">
+                <div class="info">
+                <h3 style="color:#f62368">聚美妆</h3>
+                <p>聚美妆1/2周年庆</p>
+                <p class="price"><strong>1</strong><i>折起</i></p>
+                </div>
+                <s class="line"></s>
+                <i class="mask"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#link1">
+                <img src="https://a.vpimg4.com/upload/merchandise/pdcvis/108668/2019/0416/29/7bd51d4e-3b81-4120-a6f2-ea682944b7bf.jpg">
+                <div class="info">
+                <h3 style="color:#f62368">聚美妆</h3>
+                <p>聚美妆1/2周年庆</p>
+                <p class="price"><strong>1</strong><i>折起</i></p>
+                </div>
+                <s class="line"></s>
+                <i class="mask"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#link1">
+                <img src="https://a.vpimg4.com/upload/merchandise/pdcvis/108668/2019/0416/29/7bd51d4e-3b81-4120-a6f2-ea682944b7bf.jpg">
+                <div class="info">
+                <h3 style="color:#f62368">聚美妆</h3>
+                <p>聚美妆1/2周年庆</p>
+                <p class="price"><strong>1</strong><i>折起</i></p>
+                </div>
+
+                <i class="mask"></i>
+            </a>
+        </li>
+    </ul>
+    </div>
+	    <script type="text/javascript">
+   /*     function mouseover(e){
+            var list = $('#subject li');
+            var target = $(e.target).parents('li');
+
+            list.removeClass('big');
+            target.addClass('big');
+        }
+
+        (function(){
+            var outer = $('#subject');
+            outer.find('li').on('mouseover', mouseover);
+        })()
+     */   
+	 $('ul').on('mouseover','li',function(){
+		var $this=$(this);	//指向鼠标事件
+		$('li').removeClass('big');
+		$this.addClass('big');
+	})
+    </script>
+</body>
+</html>
